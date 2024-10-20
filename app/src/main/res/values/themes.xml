@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RegisterV2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- Base application theme with ActionBar. -->
+    <style name="Base.Theme.RegisterV2.WithActionBar." parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here, similar to the theme without ActionBar. -->
+        <item name="colorPrimary">@color/primary</item>
+    </style>
+
+    <style name="Theme.NavigationDrawer" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#525BFF</item>
+        <item name="colorPrimaryVariant">#525BFF</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorSecondaryVariant">@color/primary</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <!-- Themes that can be applied to the application or specific activities. -->
+    <style name="Theme.RegisterV2" parent="Base.Theme.RegisterV2" />
+    <style name="Theme.RegisterV2.WithActionBar" parent="Base.Theme.RegisterV2.WithActionBar" />
+</resources>
